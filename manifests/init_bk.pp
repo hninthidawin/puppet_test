@@ -4,7 +4,7 @@
 #
 # @example
 #   include time
-class time (Optional[Array[String]] $server = undef,) {
+class time {
   $servers = ['time.google.com']
 
   case $facts['kernel'] {
